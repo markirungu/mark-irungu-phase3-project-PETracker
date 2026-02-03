@@ -1,3 +1,6 @@
+import sys
+sys.path.append('..')  # ".." works like in CLI, it adds the parent directory to path
+
 from models import session
 from models.pet import Pet
 from models.task import Task
